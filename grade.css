@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('./gradeimage/gradesheetbackgd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: fit-content;
+    margin: 0;
+    padding: 20px;
+}
+
+.container{
+    max-width: 600px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.h1{
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    gap: 10px;
+
+}
+
+.form input{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button{
+    padding: 10px 20px;
+    background: #2f6fed;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#error{
+    color: red;
+    min-height: 20px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+td, th{
+padding: 10px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+
+}
+
+.grade-A{
+    color: green;
+    font-weight: bold;
+
+}
+.grade-B{
+    color: #2f6fed;
+    font-weight: bold;
+
+}
+.grade-C{
+    color: orange;
+    font-weight: bold;
+
+}
+.grade-F{
+    color: red;
+    font-weight: bold;
+}
